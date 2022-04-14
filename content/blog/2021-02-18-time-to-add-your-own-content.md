@@ -2,14 +2,14 @@
 createdAt: 2021-02-18
 title: Time to add your own content
 description: Remove all of the .md-files in the /content folder and go at it!
+color: "#d91c1c"
 ---
-
 ## Sit liquentibus sinu verbis et spatiarer laedar
 
 Lorem markdownum viros voce nostri tumulandus contegat tua **prior** umbra
 **Pelopeia**. Fertur in nocet edidit Thyneius cornu; est aether senioribus illa
 detinet moenia horrendus viri. Amo tophis Idaeis [blog](/blog)
-venerat.
+venerat. <span style="color:#ffc600">Arany szöveg jön ide</span>
 
 Sic **nostrae habet**: este, sua illic auctor causam. Pateres argentea, nati
 ictus nondum, redeuntia vertitur ulterius quae temone potentia dominos obstitit
@@ -25,7 +25,7 @@ fuit ulla Thestorides. Suas adveniens vituli hi quem quaecumque Argos, frustra
 solacia: inpensior munere quae. Vivacisque **nos has** elusaque Aeaciden altum
 oris ille convicia castique.
 
-```js{1,4}[posts.vue]
+```js{1,4}\[posts.vue]
 formatDate(dateString) {
   const date = new Date(dateString)
   return date.toLocaleDateString(process.env.lang) || ''
@@ -48,10 +48,12 @@ async fetchPosts(
 ## Est nec scrobibus Antissa
 
 Duroque *sunt aureus partem* concava soleant et limite frugum Typhoea omnique:
+
+
 que et et sono meum. Relinquit miscet est humum, quo taceam lacrimas gratissima
 vetustas, Syrtis urguent valle referebam nostris iustis, fiet! Deos per totidem
 agris! Unumque incursat, dedere Libycas sensit; hac horto Lucifero dissaepserat
-aliud. Aeginam memorabile sororibus excepto.
+aliud. Aeginam memorabile sororibus excepto
 
 > Nato stella sensit copia prensantem ille annis quoniam Messapiaque inquit male
 > pater ex iuventae, casses? **Velle** esse, Apis purpureis illa adicit, sit
